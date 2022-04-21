@@ -1,0 +1,21 @@
+
+@Library("osconfig") _
+
+properties([disableConcurrentBuilds()])
+
+node("master") {
+
+  stage("Checkout sources") {
+    checkout scm
+  }
+
+  stage("Producing doc") {
+    sh "./scripts/extract_user_doc.sh -i " + BRANCH_NAME
+  }
+
+  stage("Publish doc") {
+    publish_doc(BRANCH_NAME)
+  }
+
+}
+
