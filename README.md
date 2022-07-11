@@ -15,7 +15,7 @@ support@ebeam.com.cn
 1.map comparison before and after proximity effect correction<br>
 2.electronic dose visualization can be used to verify the effectiveness and feasibility of proximity effect dose correction method<br>
 ## Using the step
-Follow the installation package steps to install the software to a custom location on your computor<br>
+Download the installation package from the folder named HnuEBL-GDS.exe.Then double-click the installation package and select the installation location of the software.Finally,choose whether to create a desktop shortcut and then install the software.<br>
 Button function:<br>
 "Open":Import a GDSII file<br>
 "Zoom In":Enlarge layout<br>
